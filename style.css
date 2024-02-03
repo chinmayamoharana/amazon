@@ -3,6 +3,7 @@
     font-family: arial;
     border: border-box;
 }
+/*navbar*/
 .navbar{
     height: 60px;
     background-color: #0f1111;
@@ -12,30 +13,27 @@
     justify-content: space-evenly;
 }
 .nav-logo{
-    height: 100%;
-    width: 160px;
+    height:50px;
+    width: 100px;
     position: relative;
-    top: -25px;
+    bottom: 6px;
+    
 }
 .logo{
-    background-image: url(https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-Background-PNG-Image.png);
+    background-image: url("amazon-com-light-logo.png");
     background-size: cover;
-    height: 120px;
-    width: 100%;
+    height: 50px;
+    width: 100% ;
 
 }
 .border{
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 
 }
-.border:hover{
-    border: 2px solid white;
-}
-.add-first{
+ .border:hover{
+   border: 1px solid white;
     color: #cccccc;
-    font-size: 1rem;
-    margin-left: 15px;
-}
+}  
 .add-second{
     font-size: 1rem;
     margin-left: 3px;
@@ -75,3 +73,102 @@
     border-bottom-right-radius: 4px;
     color: #0f1111;
 }
+
+
+
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+}
+  .cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  .D-icon{
+    display: flex;
+  }
+  .D-icon i{
+    margin-left: 5px;
+  }
+  .panel{
+    height: 40px;
+    background-color:#222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .panel-ops p{
+    display: inline;
+    margin-left: 20px;
+    
+  }
+  .panel-ops{
+    width: 90%;
+    font-size: 0.75;
+  }
+  .hero-section{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height:350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .hero-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 25px;
+  }
+  .hero-message a{
+    color: #007185;
+  }
+  .shop-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#5109CA;
+  }
+  .box{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+  }
+  .box1-image{
+    background-image: url("box1.jpg");
+    background-size: cover;
+    height: 200px;
+  }
+  .container{
+    margin: 15px;
+  }
+ .box2-image{
+    background-image: url("box2.jpg");
+    background-size: cover;
+    height: 250px;
+ }
+ .box3-image{
+    background-image: url("box3.jpg");
+    background-size: cover;
+    height: 200px;
+ }
+ .box4-image{
+    background-image: url("box4.jpg");
+    background-size: cover;
+    height: 200px;
+ }
+ 
